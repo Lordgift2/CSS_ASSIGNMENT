@@ -1,0 +1,31 @@
+html {display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;}
+
+.layer1 {padding-left: 48px;
+    background-color: #1F2937;
+color: #f9faf8;
+align-items: center;
+justify-items: center;
+margin: 0px;
+padding: 24;}
+a{text-decoration: none;
+color: #f9faf8;}
+.header {padding: 24px;
+        margin: 0;
+    display: flex; 
+        justify-content: space-between ;
+     }
+
+.links{display: flex;
+gap: 18px;}
+.main {display: flex; 
+    flex-direction: row;
+justify-content: center;
+justify-items: center;
+align-items: center;
+flex: 1;
+padding: 24px;}
+.text{display: flex; flex-direction:column ;}
+.place-holder {background-color: grey;}
+
