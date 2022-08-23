@@ -1,8 +1,9 @@
 html {display: flex;
     justify-content: center;
-    font-family:'Times New Roman', Times, serif;}
+    font-family:Verdana, Geneva, Tahoma, sans-serif}
 
-.hero, .footer {padding-left: 48px;
+.hero, .footer {border-radius: 25px;
+    padding-left: 48px;
     background-color: #1F2937;
 color: #f9faf8;
 align-items: center;
@@ -11,7 +12,8 @@ margin: 0px;
 padding: 24;}
 a{text-decoration: none;
 color: #f9faf8;}
-.header {padding: 24px;
+.header {
+    padding: 24px;
         margin: 0;
     display: flex; 
     justify-content: space-between;}
@@ -27,10 +29,13 @@ align-items: center;
 flex: 1;
 padding: 24px;}
 .text{display: flex; flex-direction:column;}
-.main-text {display: flex;
+.main-text {background: linear-gradient(to left,yellow,indigo,green,orange);
+    -webkit-background-clip:text;
+    color: transparent;
+    display: flex;
             font-size: 48px;
             font-weight:bolder;}
-.place-holder {background-color: grey;}
+.place-holder {background-blend-mode: 35.0;}
 .secondery{font-size: 18px;
 color: #e5e7eb;}
 .footer {display: flex;
@@ -48,14 +53,16 @@ color: #e5e7eb;}
         justify-content: center;
         font-size: 36px;
     padding: 18px;}
-    .info-text {display: flex;}
+    .info-text { gap: 15px; display: flex;align-items: center;justify-content: center;justify-items: center;}
     .quote {display: flex;flex-direction: column;  background-color:#e5e7eb; font-size: 36px; color: #1f2937;
     align-items:flex-end;justify-content:center;padding: 28px; margin: 28px;}
-    .sign-up {display: flex;
+    .sign-up {border-radius: 25px;
+        display: flex;
     flex-direction: column;
 background-color: #3882f6;
 align-items:flex-start;padding: 26px; justify-items: center;justify-content: center;
 margin: 50px;color: #e5e7eb;}
-.call {color: white;font-size: 36px;}       
+.call {color: white;font-size: 36px;} 
+button {background-color: blue; color: #e5e7eb;border-radius: 23px;}      
 
 
