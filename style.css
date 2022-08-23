@@ -49,6 +49,13 @@ color: #e5e7eb;}
         font-size: 36px;
     padding: 18px;}
     .info-text {display: flex;}
-        
+    .quote {display: flex;flex-direction: column;  background-color:#e5e7eb; font-size: 36px; color: #1f2937;
+    align-items:flex-end;justify-content:center;padding: 28px; margin: 28px;}
+    .sign-up {display: flex;
+    flex-direction: column;
+background-color: #3882f6;
+align-items:flex-start;padding: 26px; justify-items: center;justify-content: center;
+margin: 50px;color: #e5e7eb;}
+.call {color: white;font-size: 36px;}       
 
 
